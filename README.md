@@ -1,5 +1,37 @@
 ## Website Performance Optimization portfolio project
 
+Project Submission - Jeff Morgan
+The following link utilizes the “distributed” source code, https://jsm200.github.io/dist/ , The “dist” folder consists of code which has been minified, compressed, and optimized for optimal web user experience. 
+All supporting code can be found here https://github.com/jsm200/frontend-nanodegree-mobile-portfolio . You can view code from this location or clone project repository on your machine. To do that, either clone the repository using git, or click the download zip button on the right and unzip the file. To view the optimized page, navigate to dist, then double-click index.html.
+I have optimized index.html to achieve at least a 90 PageSpeed score for both mobile and desktop devices. I've optimized the JavaScript in pizza.html to achieve a frame rate of 60fps as well as reducing the time to resize pizzas in pizza.html to less than 5 ms.
+Un-optimized source code is in the “src” directory.
+Production code (optimized – minify, compression, etc) is in the “dist” directory.
+Part 1: Optimize PageSpeed Insights score for index.html
+Optimizations:
+•	Reduce the size of pizzaria.jpg to 100px width
+•	Inline css/style.css
+•	Uglify JS
+•	Minify CSS
+•	Minify HTML
+•	Make google-analytics script async
+•	Add a media query for print.css
+•	Use Web Font Loader to load the Google webfont asynchronously
+•	Compress and Optimize all image files
+Sources:
+•	https://discussions.udacity.com/t/how-to-optimize-css-and-google-fonts/26997
+•	https://discussions.udacity.com/t/gulp-and-setting-up-a-gulp-workflow-intermediate/24359
+•	https://github.com/Sarika-C/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js
+•	https://discussions.udacity.com/t/p4-pizza-scrolling-rasterize-paint/30713/13
+•	https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+•	https://discussions.udacity.com/t/forced-reflow-new-issue/158305/21
+•	https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
+•	https://javascriptweblog.wordpress.com/2010/10/11/rethinking-javascript-for-loops/
+
+
+Project Submission - Jeff Morgan - end
+
+
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository and inspect the code.
